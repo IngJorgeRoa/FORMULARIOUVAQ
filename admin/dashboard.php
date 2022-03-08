@@ -11,46 +11,51 @@
 </head>
 
 <body id="body">
+
+<div class="container-fluid">
+    <ul class="list-inline">
+        <li class="list-inline-item"><img src="../public/img/uvaq_logo.jpg" id="img_form"></li>
+        <li class="list-inline-item"></li>
+        <li id="cerrar_sesion"><a href="login.html">Cerrar Sesión</a></li>
+    </ul>
+</div>
+
+    <div class="container-fluid bg-primary">
+        <p id="background">1</p>
+    </div>
+
+    <div class="container-fluid">
+       <div class="row">
+            <div class="col-md-12">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Nombre completo</th>
+                            <th>Correo electrónico</th>
+                            <th>Teléfono</th>
+                            <th>Institución</th>
+                            <th>¿Cómo te enteraste?</th>
+                            <th>Escribre el nombre</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1</th>
+                            <th>Jorge Roa</th>
+                            <th>ingeniero.jorge.roa@gmail.com</th>
+                            <th>4381129473</th>
+                            <th>UVAQ</th>
+                            <th>UVAQ</th>
+                            <th>Jorge</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+       </div>
+    </div>
             
-    <div class="sidenav container">
     
-            <div class="col-3">
-                <a href="#">  <img src="../public/img/uvaq_logo.jpg" id="img_form"></a>
-            <!-- <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#clients">Clients</a>
-                <a href="#contact">Contact</a>
-                <button class="dropdown-btn">Dropdown
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-container">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                </div>
-                <a href="#contact">Search</a>-->
-            <span><a href="login.html">Cerrar Sesión</a></span> 
-        </div>
-    </div>
-    
- 
-
-    <div class="container text-center">
-
-        <div class="col-9">
-            <table class="table table-dark">
-                <thead>
-                    <tr>
-                        <th>Nombre</th>
-                        <th>Correo electrónico</th>
-                        <th></th>
-
-                    </tr>
-                </thead>
-            </table>
-        </div>
-
-    </div>
 
 
 </body>
