@@ -31,7 +31,7 @@
                  
 
                 alert("GUARDADO CON ÉXITO");
-                 location.href = "../../index.php";
+                 location.href = "../../colecta.html";
 
             </script>';
            
