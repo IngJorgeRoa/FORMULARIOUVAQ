@@ -27,7 +27,9 @@
         </div>
     <br>
     <div class="container text-center border border-dark mt-2">
-        <img src="public/img/uvaq_logo.jpg" id="img_form">
+        <div class="row">
+            <div class="col-md-6">
+            <img src="public/img/uvaq_logo.jpg" id="img_form">
         <div class="card">
             <form action="bd/acciones/save.php" method="post">
                 <div class="row">
@@ -53,6 +55,7 @@
                         <option value="Docente">Docente</option>
                         <option value="Alumno">Alumno</option>
                         <option value="UVAQ">UVAQ</option>
+                        <option value="Invitado de HONOR">Invitado de honor</option>
                         <option value="Redes sociales">Redes sociales</option>
                         <option value="Otro">Otro</option>
                     </select>
@@ -67,6 +70,15 @@
             </form>
             <br>
         </div>
+            </div>
+            <div class="col-md-6">
+                <img src="public/img/testtimonio.jpeg" class="mt-2" alt="" id="img_testimonio"
+                style="  width: 450px;
+                        height: 800px;
+                        border-radius: 20px;">
+            </div>
+        </div>
+      <br>
     </div>
 
     <br>
@@ -75,8 +87,9 @@
 <footer>
     <div class="container-fluid text-center mt-2">
         <div class="row">
-            <div class="col-6">1</div>
-            <div class="col-6">2</div>
+            <div class="col-12">
+               <p>Desarrollado por <a href="https://engineerweb.com.mx/" target="_blank" >Engineerweb</a></p> 
+            </div>
         </div>
     </div>
 </footer>   
